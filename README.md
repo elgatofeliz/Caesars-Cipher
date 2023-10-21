@@ -26,7 +26,7 @@ All letters will be uppercase. Do not transform any non-alphabetic character (i.
         if(elt.charCodeAt(0) >= 65 && elt.charCodeAt(0) <= 90){
     
           if(elt.charCodeAt(0) - 13 < 65){
-            return String.fromCharCode(elt.charCodeAt(0) + 26 - 13)
+            return String.fromCharCode(elt.charCodeAt(0) + 13)
           }
     
           return String.fromCharCode(elt.charCodeAt(0) - 13)
